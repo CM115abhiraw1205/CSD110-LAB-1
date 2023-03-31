@@ -9,21 +9,21 @@ def calculate_bill(name, cleaning, cavity_filling, x_ray):
     elif cleaning == 'n':
         subtotal += 0
     else:
-        print("Invalid Input")
+        print("Invalid Input 😡")
 
     if cavity_filling == 'y':
         subtotal += 200
     elif cavity_filling == 'n':
         subtotal += 0
     else:
-        print("Invalid Input")
+        print("Invalid Input 🤬")
 
     if x_ray == 'y':
         subtotal += 100
     elif x_ray == 'n':
         subtotal += 0
     else:
-        print("Invalid Input")
+        print("Invalid Input 👺")
 
     # Calculate tax and total.
     tax = subtotal * 0.15
